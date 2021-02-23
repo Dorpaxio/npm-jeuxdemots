@@ -1,3 +1,5 @@
 import * as rezo from './rezo.js';
 
-exports.search = rezo.search;
+export function search(word, options) {
+    return rezo.search(word, options);
+}
