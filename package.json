@@ -13,5 +13,6 @@
   ],
   "author": "Charles DESGENETEZ",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "readme": "README.md"
 }
