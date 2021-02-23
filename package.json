@@ -1,0 +1,17 @@
+{
+  "name": "jeuxdemots",
+  "version": "1.0.0",
+  "description": "Module package for JeuxDeMots.org.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jeux",
+    "de",
+    "mots"
+  ],
+  "author": "Charles DESGENETEZ",
+  "license": "ISC",
+  "type": "module"
+}
