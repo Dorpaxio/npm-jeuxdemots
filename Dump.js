@@ -1,4 +1,4 @@
-export default class Dump {
+module.exports = class Dump {
 
     /**
      * @param dump {string}
