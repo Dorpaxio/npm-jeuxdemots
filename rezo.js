@@ -1,5 +1,5 @@
-import Dump from './Dump.js';
-import http from 'http';
+const Dump = require('./Dump');
+const http = require('http');
 
 /**
  * Search for a word in Rézo Dump.
