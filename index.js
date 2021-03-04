@@ -2,11 +2,17 @@ const Dump = require('./Dump');
 const http = require('http');
 
 /**
+ * A module to retrieve JeuxDeMots data.
+ * @module jeuxdemots
+ */
+
+/**
  * Search for a word in Rézo Dump.
  * @param word {string} word to search for.
  * @param [options] {{outrelation?: boolean, inrelation?: boolean, relationTypes?: string[]}} default: {outrelation: true, inrelation: true}
  * search options. OutRelation is for including or excluding outcoming relation and InRelation for incoming relations.
  * @returns {Promise<Dump>}
+ * @api public
  */
 exports.search = function (word, options) {
     return new Promise((resolve, reject) => {

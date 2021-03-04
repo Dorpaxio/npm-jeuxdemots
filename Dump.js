@@ -1,6 +1,9 @@
+'use strict';
+
 /**
  * Dump constructor used to get information from
  *
+ * @constructor
  * @param dump {string}
  * @param [options] {{outrelation?: boolean, inrelation?: boolean, relationTypes?: string[]}}
  * @api public
@@ -102,7 +105,6 @@ function getRelationTypes(dump) {
  * @param relationTypes
  * @returns {Object}
  * @private
- * @api private
  */
 Dump.prototype._getRelations = function(dump, header, end, relationTypes) {
     const startIndex = dump.indexOf(header) + header.length;
@@ -164,4 +166,8 @@ Dump.prototype.getInRelations = function (relationTypes) {
     return relations;
 }
 
-module.exports = Dump;
+/**
+ *
+ * @type {Dump}
+ */
+module.exports = exports = Dump;
