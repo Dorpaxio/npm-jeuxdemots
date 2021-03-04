@@ -1,4 +1,6 @@
-const Dump = require('./Dump');
+'use strict';
+
+const Dump = require('./lib/Dump');
 const http = require('http');
 
 /**

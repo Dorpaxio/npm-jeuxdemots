@@ -13,5 +13,9 @@
   ],
   "author": "Charles DESGENETEZ",
   "license": "ISC",
-  "readme": "README.md"
+  "readme": "README.md",
+  "files": [
+    "lib/",
+    "index.js"
+  ]
 }
