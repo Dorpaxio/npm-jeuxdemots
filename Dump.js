@@ -166,8 +166,4 @@ Dump.prototype.getInRelations = function (relationTypes) {
     return relations;
 }
 
-/**
- *
- * @type {Dump}
- */
 module.exports = exports = Dump;
